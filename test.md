@@ -101,7 +101,7 @@ op5=>operation: set_record|current
 cond1=>condition: ids_remain空?
 cond2=>condition: proxy_list空?
 cond3=>condition: ids_got空?
-cond4=>condition: 爬取成功??
+cond4=>condition: 爬取成功???(add one more?)
 cond5=>condition: ids_remain空?
 
 io1=>inputoutput: ids-remain
