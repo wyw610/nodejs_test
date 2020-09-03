@@ -1,0 +1,13 @@
+<body>
+    <input type="button" value="第一个按钮" id="btn1"/>
+    <input type="button" value="干掉第一个按钮的事件" id="btn2"/>
+    <div id="dv"></div>
+    <script>
+        document.getElementById("btn1").onclick = function () {
+            console.log("码仙");
+        };
+        document.getElementById("btn2").onclick = function () {
+            document.getElementById("btn1").onclick = null;
+        };
+    </script>
+    </body>
